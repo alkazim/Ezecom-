@@ -39,5 +39,5 @@ To streamline **B2B procurement** by replacing manual processes with a **digital
 
 ## 📲 Availability
 📥 **Download on Google Play**  
-[![Ezecom on Google Play](https://img.shields.io/badge/Google_Play-Ezecom-green?style=for-the-badge&logo=googleplay)](https://play.google.com/store/apps/details?id=YOUR_APP_PACKAGE_NAME)  
+[![Ezecom on Google Play](https://img.shields.io/badge/Google_Play-Ezecom-green?style=for-the-badge&logo=googleplay)](https://play.google.com/store/apps/details?id=com.mycompany.ezecom&hl=en_IN)  
 
