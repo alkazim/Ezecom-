@@ -17,10 +17,10 @@ Ezecom is a **B2B e-commerce mobile application** designed to simplify wholesale
 
 ## 🛠️ Tech Stack
 - **Frontend:** Flutter  
-- **Backend:** Firebase (Authentication, Firestore, Storage)  
-- **State Management:** Provider / SetState  
-- **Database:** Cloud Firestore  
-- **Cloud Storage:** Firebase Storage  
+- **Backend:** Supabase (authentication, REST API, storage)  
+- **Database:** PostgreSQL (managed via Supabase)  
+- **API:** Supabase client integration for queries and authentication  
+- **State Management:** Provider / SetState (based on Flutter best practices)  
 
 ---
 
@@ -31,11 +31,13 @@ To streamline **B2B procurement** by replacing manual processes with a **digital
 
 ## 👨‍💻 My Contribution
 - Developed the complete mobile app using Flutter  
-- Integrated Firebase backend services (auth, database, storage)  
-- Implemented real-time order management  
+- Integrated **Supabase backend services** (authentication, database, storage)  
+- Implemented **real-time order management** and optimized performance  
 - Published the app successfully on the **Google Play Store**  
 
 ---
 
 ## 📲 Availability
-Ezecom is live on the **Google Play Store** and available for businesses to use.  
+📥 **Download on Google Play**  
+[![Ezecom on Google Play](https://img.shields.io/badge/Google_Play-Ezecom-green?style=for-the-badge&logo=googleplay)](https://play.google.com/store/apps/details?id=YOUR_APP_PACKAGE_NAME)  
+
