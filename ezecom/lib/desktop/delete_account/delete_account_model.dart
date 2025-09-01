@@ -1,0 +1,39 @@
+import '/flutter_flow/flutter_flow_icon_button.dart';
+import '/flutter_flow/flutter_flow_util.dart';
+import '/flutter_flow/flutter_flow_widgets.dart';
+import 'dart:ui';
+import '/custom_code/actions/index.dart' as actions;
+import '/custom_code/widgets/index.dart' as custom_widgets;
+import '/index.dart';
+import 'delete_account_widget.dart' show DeleteAccountWidget;
+import 'package:ff_theme/flutter_flow/flutter_flow_theme.dart';
+import 'package:flutter/material.dart';
+import 'package:google_fonts/google_fonts.dart';
+import 'package:provider/provider.dart';
+
+class DeleteAccountModel extends FlutterFlowModel<DeleteAccountWidget> {
+  ///  State fields for stateful widgets in this page.
+
+  // State field(s) for TextField widget.
+  FocusNode? textFieldFocusNode;
+  TextEditingController? textController1;
+  String? Function(BuildContext, String?)? textController1Validator;
+  // State field(s) for SearchField widget.
+  FocusNode? searchFieldFocusNode;
+  TextEditingController? searchFieldTextController;
+  String? Function(BuildContext, String?)? searchFieldTextControllerValidator;
+  // Stores action output result for [Custom Action - searchProducts] action in SearchField widget.
+  List<int>? productIDs;
+
+  @override
+  void initState(BuildContext context) {}
+
+  @override
+  void dispose() {
+    textFieldFocusNode?.dispose();
+    textController1?.dispose();
+
+    searchFieldFocusNode?.dispose();
+    searchFieldTextController?.dispose();
+  }
+}
